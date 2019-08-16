@@ -27,6 +27,6 @@ public class HelloControllerTest {
 
     @Test
     public void shouldGetHelloWorld() throws Exception {
-        this.mvc.perform(get("/")).andExpect(status().isOk()).andExpect(content().string("Hello World"));
+        this.mvc.perform(get("/")).andExpect(status().isOk()).andExpect(content().string("Hello Docker"));
     }
 }
