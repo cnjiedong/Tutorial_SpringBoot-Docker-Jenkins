@@ -10,6 +10,6 @@ public class HelloController {
     @ResponseBody
     @RequestMapping("/")
     public String hello() {
-        return "Hello Docker,change,from proxy";
+        return "Hello Docker,change,from proxy,welcome";
     }
 }
